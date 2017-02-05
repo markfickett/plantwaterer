@@ -1,3 +1,7 @@
+/**
+ * Automatically waters a plant; see README.
+ */
+
 #include <morse.h>
 
 #define PIN_STATUS 0
