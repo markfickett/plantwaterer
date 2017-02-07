@@ -1,0 +1,43 @@
+<p>This plant waterer runs on an ATTiny85. It detects the moisture in the plant's soil and detects whether the water reservoir is empty using a voltage divider (more water means less resistance means higher voltage detected). It waters the plant using a pump with a DC motor.</p>
+
+<img src="arduino/170206plantwatereroverview700.jpg" alt="overview" />
+
+<p><a href="http://github.com/markfickett/plantwaterer">Code on Github</a>.</p>
+
+<h2>Circuit</h2>
+
+<img src="arduino/170206plantwaterercircuit.jpg" alt="circuit diagram" />
+
+<h2>Parts and Construction</h2>
+
+<img src="arduino/170206plantwaterercontrolboard700.jpg" alt="control board" />
+
+<ul>
+<li>ATTiny85 micro controller, 8-pin DIP socket
+    (optional to make reprogramming easier)</li>
+<li>3.3v regulator from Radio Shack</li>
+<li>vcc smoothing capacitor (6.3v, 470 micro farads)</li>
+<li>2x 150 ohm resistors for status LEDs</li>
+<li>2x status LEDs (red for power, green for status as Morse code)</li>
+<li>2x 220 kOhm resistors for voltage dividers</li>
+<li>flyback diode (1N401 from Radio Shack) and smoothing capacitor (built in)
+    for pump motor</li>
+<li>MOSFET to control motor</li>
+<li>12v wall wart from electronic scraps (a lower output voltage would waste
+    less power as heat in the voltage regulator)</li>
+<li>heat sink for voltage regulator (copper band from scrap electronics)</li>
+<li>paristaltic pump from broken bubble gun toy</li>
+<li>water sensors: speaker wire, nails, wood scrap</li>
+<li>vinyl tubing</li>
+<li>quarter-size perma-proto board from Adafruit (15 rows)</li>
+</ul>
+
+<img src="arduino/170206plantwaterermotorandcontrol700.jpg" alt="motor" />
+
+<p>For the water bucket end, I used a plastic baggie tie to hold the end of the speaker wire to the tube, and used an empty glass jar to hold the tube's end underwater. (There has been some corrosion of the copper wire due to current flowing for the voltage divider.)</p>
+
+<img src="arduino/170206plantwatereruptake700.jpg" alt="uptake" />
+
+<p>For the plant end, I cut a small wood scrap, which holds two conductive probes to sense soil moisture and which keeps the vinyl tubing in place.</p>
+
+<img src="arduino/170206plantwatererhoseanchorandprobes700.jpg" alt="probe" />
