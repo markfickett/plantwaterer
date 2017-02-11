@@ -8,4 +8,4 @@ plant using a pump with a DC motor.
 
 [More details and photos](http://www.markfickett.com/stuff/artPage.php?id=391).
 
-![Circuit Diagram](http://www.markfickett.com/stuff/arduino/170206plantwaterercircuit.jpg)
+![Circuit Diagram](http://www.markfickett.com/stuff/arduino/170207plantwaterercircuitdiagrampen700.png)
